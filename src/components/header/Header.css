@@ -1,0 +1,67 @@
+/* Header.css */
+
+.navigation header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: #fff;
+  border-bottom: 4px solid;
+  border-bottom-color: #6faca6;
+}
+.navigation {
+  background-color: #dcdcdc;
+}
+.img-container {
+  width: 150px;
+}
+.logo {
+  max-width: 100%; /* Make image responsive */
+  height: auto;
+  margin-right: 10px;
+}
+.text-container {
+  display: inline-flex;
+  gap: 30px;
+}
+.material-nav-custom-icon {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.title {
+  margin: 0;
+  font-size: 24px;
+}
+.text {
+  color: black;
+}
+/* Navigation CSS */
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+ul li {
+  padding: 20px;
+  display: inline-block;
+}
+ul li:nth-child(2) {
+  background: #eb4a41;
+}
+
+ul li:last-child {
+  background: #f29b39;
+}
+.material-icons.material-icons-custom-state {
+  position: relative;
+  bottom: 14px;
+  left: 11px;
+}
+.running .material-icons-custom-state {
+  color: #86ac42;
+}
+.alarm .material-icons-custom-state {
+  color: #ffff;
+}
+.warning .material-icons-custom-state {
+  color: #ffff;
+}

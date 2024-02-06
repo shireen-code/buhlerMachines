@@ -1,0 +1,6 @@
+[
+    {"name": "Scale", "state": "Running", "icon": "ScaleIcon", "color": "green"},
+    {"name": "Bag Attach", "state": "Alarm", "icon": "BagAttachIcon", "color": "red"},
+    {"name": "Packer", "state": "Warning", "icon": "PackerIcon", "color": "orange"},
+    {"name": "Bag Closer", "state": "Running", "icon": "BagCloserIcon", "color": "green"}
+]

@@ -1,0 +1,68 @@
+@import "material-icons/iconfont/material-icons.css";
+
+.overview {
+  height: 70vh;
+}
+.machine-section {
+  width: 11%;
+  background: #dcdcdc;
+  padding: 28px 20px;
+  text-align: center;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .machine-section {
+    width: 100%;
+  }
+}
+
+.machine-sections {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+}
+.machine-section.alarm {
+  background: #eb4a41;
+}
+.machine-sections::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 50%;
+    left: 6%;
+    width: 88%;
+    height: 4px;
+    background-color: #6faca6;
+}
+@media (max-width: 768px) {
+    .machine-sections::after {
+        content: "";
+        width: 0;
+    }
+  }
+.machine-section.warning {
+  background: #f29b39;
+}
+span.material-icons.material-icons-custom {
+  font-size: 60px;
+}
+.machine-sections h4 {
+  margin: 0;
+}
+span.material-icons.material-icons-state {
+  position: absolute;
+  right: 7px;
+  bottom: 108px;
+}
+.running .material-icons-state {
+  color: #86ac42;
+}
+.alarm .material-icons-state {
+  color: #ffff;
+}
+.warning .material-icons-state {
+  color: #ffff;
+}
